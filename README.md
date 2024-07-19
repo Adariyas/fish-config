@@ -1,2 +1,6 @@
-# Cachyos Fish Config
+## Cachyos Fish Config
+
+- ohmyfish
+- fish
+- fastfetch
 
