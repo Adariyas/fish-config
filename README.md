@@ -5,6 +5,7 @@
 - fastfetch
 
 ## Common use
+```
 grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 fixpacman="sudo rm /var/lib/pacman/db.lck"
 tarnow='tar -acf '
@@ -26,3 +27,4 @@ hw='hwinfo --short'                                   # Hardware Info
 big="expac -H M '%m\t%n' | sort -h | nl"              # Sort installed packages according to size in MB
 gitpkg='pacman -Q | grep -i "\-git" | wc -l'          # List amount of -git packages
 update='sudo pacman -Syu'
+```
